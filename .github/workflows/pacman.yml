@@ -1,28 +1,35 @@
-name: Generate Snake
+name: Generate Pac-Man Graph
 
 on:
-  # Her gece yarısı otomatik çalıştır
+  # Her 24 saatte bir otomatik çalışır
   schedule:
     - cron: "0 0 * * *" 
-  # İstediğin zaman elle çalıştırmak için
+
+  # Test etmek istersen 'Actions' sekmesinden manuel tetiklemene izin verir
   workflow_dispatch:
 
+  # Main branch'e her push yapıldığında çalışır
+  push:
+    branches:
+    - main
+
 jobs:
-  build:
+  generate:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: Platane/snk@v3
+      # Pac-Man animasyonunu oluşturur
+      - name: generate-pacman-graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          # GitHub kullanıcı adınızı buraya yazın
-          github_user_name: OguzSERIM
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          github_user_name: ${{ github.repository_owner }}
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      # Oluşan SVG dosyasını "output" adlı bir branch'e yollar
+      - name: push-pacman-graph
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
