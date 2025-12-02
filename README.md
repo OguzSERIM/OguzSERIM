@@ -2,24 +2,24 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OguzSERIM/OguzSERIM/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OguzSERIM/OguzSERIM/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/OguzSERIM/OguzSERIM/output/pacman-contribution-graph.svg">
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OguzSERIM/OguzSERIM/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OguzSERIM/OguzSERIM/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/OguzSERIM/OguzSERIM/output/pacman-contribution-graph.svg">
+  </picture>
+</div>
 
 ###
 
 <div align="center">
-  <a href="https://open.spotify.com/user/Oğuzhan Serim">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=O%C4%9Fuzhan%20Serim&count=5&unique=true" alt="Spotify recently played"  />
+  <a href="https://open.spotify.com/user/spotify_kullanici_id_niz_buraya">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=O%C4%9Fuzhan%20Serim&count=5&unique=true&theme=dark&background_color=0d1117" alt="Spotify recently played" />
   </a>
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=OguzSERIM.OguzSERIM&left_color=aqua&right_color=bisque"  />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=OguzSERIM.OguzSERIM&left_color=aqua&right_color=bisque" alt="Visitor Badge" />
 </div>
-
-###
