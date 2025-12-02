@@ -14,7 +14,7 @@
 
 <div align="center">
   <a href="https://open.spotify.com/user/spotify_kullanici_id_niz_buraya">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=O%C4%9Fuzhan%20Serim&count=5&unique=true&theme=dark&background_color=0d1117" alt="Spotify recently played" />
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31jdafqriif4v7faxhcympq5af5u&count=5&unique=true&theme=dark&background_color=0d1117" alt="Spotify recently played" />
   </a>
 </div>
 
